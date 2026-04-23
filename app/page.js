@@ -6,7 +6,7 @@ export default function HomePage() {
       <p>Steamy interactive love stories.</p>
 
       <a
-        href="PASTE_YOUR_STRIPE_PAYMENT_LINK_HERE"
+        href="https://buy.stripe.com/..."
         target="_blank"
         rel="noopener noreferrer"
         style={{
