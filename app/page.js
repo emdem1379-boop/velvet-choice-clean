@@ -1,31 +1,25 @@
-'use client'
-
-import { loadStripe } from '@stripe/stripe-js'
 
 export default function HomePage() {
-  const handleCheckout = async () => {
-   const stripe = await loadStripe('pk_test_XXXXXXXXXXXXXXXX') 
-    if (!stripe) {
-      alert('Stripe did not load.')
-      return
-    }
-
-    await stripe.redirectToCheckout({
-      lineItems: [{price: 'price_XXXXXXXXXXXXXXXX', quantity: 1 }],
-      mode: 'subscription',
-      successUrl: window.location.origin,
-      cancelUrl: window.location.origin,
-    })
-  }
-
   return (
     <main>
       <h1>Velvet Choice</h1>
       <p>Steamy interactive love stories.</p>
 
-      <button onClick={handleCheckout}>
+      <a
+        href="PASTE_YOUR_STRIPE_PAYMENT_LINK_HERE"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: 'inline-block',
+          padding: '12px 16px',
+          background: 'black',
+          color: 'white',
+          textDecoration: 'none',
+          borderRadius: '8px',
+        }}
+      >
         🔒 Unlock the next chapter — $5/month
-      </button>
+      </a>
     </main>
   )
 }
