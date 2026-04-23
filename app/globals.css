@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -30,6 +32,12 @@ body {
 h1 {
   margin-top: 0;
   font-size: 2rem;
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 .tagline {
