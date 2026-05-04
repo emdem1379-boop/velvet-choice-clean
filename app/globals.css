@@ -88,3 +88,14 @@ a.lockedButton {
   font-size: 0.9rem;
   opacity: 0.75;
 }
+.choices {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lockedButton {
+  display: inline-block;
+  margin: 0 auto;
+}
