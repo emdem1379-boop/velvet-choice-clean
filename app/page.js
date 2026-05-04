@@ -38,7 +38,7 @@ export default function HomePage() {
           </p>
 
           <a
-            href="https://buy.stripe.com/test_14AbIU8Kg3Pp3AngxQgA801"
+            href=https://buy.stripe.com/3cI5kFbYafVk8Kaajnak004
             target="_blank"
             rel="noopener noreferrer"
             className="lockedButton"
