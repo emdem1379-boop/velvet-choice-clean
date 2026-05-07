@@ -12,7 +12,7 @@ export default function Chapter23() {
       <h2>Chapter 23</h2>
 
       <p>
-        Paste your full chapter content here.
+        Velvet_Choice_Expanded_Print.pdf
       </p>
     </main>
   );
