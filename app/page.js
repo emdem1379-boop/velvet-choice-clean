@@ -31,26 +31,24 @@ export default function HomePage() {
         </div>
 
         <div className="lockedBox">
-          <div className="lockIcon">🔒</div>
-          <h2>The rest is locked</h2>
-          <p>
-   <p>
-  Unlock the full story library and continue instantly after checkout.
+     
+<p className="small center">
+  🔒 Continue beyond the door.
 </p>
 
+<p>
+  Unlock the full story library and continue instantly after checkout.
+</p>
 <a
   href="https://buy.stripe.com/3cI5KfBYafVk8Kaajnak004"
   target="_blank"
   rel="noopener noreferrer"
   className="lockedButton"
 >
-  Unlock Velvet Choice — $5/month
+  Unlock Velvet Choice — $5
 </a>
-  href="https://buy.stripe.com/3cI5KfBYafVk8Kaajnak004"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="lockedButton"
->         
+  
+       
 
           <p className="small center">Cancel anytime. Instant access after checkout.</p>
         </div>
