@@ -30,7 +30,7 @@ export default function HomePage() {
           </p>
         </div>
 
-    <div className="lockedBox">
+  <div className="lockedBox">
 
   <p className="small center">
     🔒 Continue beyond the door.
