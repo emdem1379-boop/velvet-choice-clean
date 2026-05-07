@@ -29,7 +29,7 @@ export default function HomePage() {
             long enough to make your pulse jump.
           </p>
         </div>
-
+ 
 <div className="lockedBox">
 
   <p className="small center">
@@ -53,6 +53,7 @@ export default function HomePage() {
     Cancel anytime. Instant access after checkout.
   </p>
 
+</div>
 
       </section>
     </main>
